@@ -13,7 +13,7 @@ const MovieDetail = ({ movies }) => {
         <>
           <h1>{movie.title}</h1>
           <p>{movie.description}</p>
-          < style="width: 80%" VideoPlayer url={movie.url} />
+          < style="width: 80%;" VideoPlayer url={movie.url} />
         </>
       ) : (
         <p>Movie not found</p>
